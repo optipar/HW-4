@@ -1,0 +1,186 @@
+body {
+  background-image: url('../images/sky_colors-wide.jpg');
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+h2, h3, ul, blockquote {
+  color: #263555;
+}
+
+.wrapper {
+  width: 905px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 132px auto;
+  padding: 60px;
+}
+
+.main {
+  display: inline-block;
+  vertical-align: top;
+  width: 550px;
+  }
+
+img {
+  float: left;
+  padding-right: 15px;
+}
+
+.block {
+  display: inline-block;
+  width: 350px;
+}
+
+.block h2 {
+  text-align: center;
+}
+
+ul {
+  position: relative;
+  width: 223px;
+  margin:0 0 6px 2em;
+}
+
+.block li {
+  list-style-type: none;
+  position: relative;
+}
+
+.block li::before {
+  border: 1px solid #1297fb;
+  background-color: #62a1bd;
+  color: #fdf9f9;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  left: -40px;
+  line-height: 25px;
+  top: 3px;
+  padding-bottom: -2px;
+  position: absolute;
+  text-align: center;
+}
+
+.first::before {
+  content: '1';
+}
+
+.second::before {
+  content: '2';
+}
+
+.third::before {
+  content: '3';
+}
+
+.content {
+  border-bottom: 1px solid #8d8a8a;
+  padding-bottom: 40px;
+}
+
+.block2 {
+  display: inline-block;
+}
+
+.offer {
+  display: inline-block;
+  width: 600px;
+}
+
+.testimonial {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+}
+
+.testimonial h2 {
+  text-align: center;
+  padding-left: 35px;
+}
+
+blockquote::before {
+  content: '\0022';
+}
+
+blockquote::after {
+  content: '\0022';
+}
+
+blockquote {
+  position: relative;
+  width: 160px;
+  heigth: 200px;
+  padding: 20px;
+  border: 1px solid #8d8a8a;
+  background-color: #f0e7e7;
+}
+
+.quote::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 50px solid #f0e7e7;
+  border-left: 30px solid transparent;
+  border-right: 31px solid transparent;
+  bottom: -31px;
+  left: 79px;
+}
+
+.quote::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 48px solid #8d8a8a;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  bottom: -35px;
+  left: 84px;
+}
+
+.block3 {
+  display: inline-block;
+}
+
+.list {
+  display: inline-block;
+  width: 600px;
+}
+
+
+.list li {
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+  width: 250px;
+  margin-left: -20px;
+}
+
+.list li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-image: url('../images/Untitled-2.png');
+  left: -20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.name {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -40px;
+  margin-top: -35px;
+  text-align: center;
+}
